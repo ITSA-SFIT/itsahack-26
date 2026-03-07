@@ -20,14 +20,14 @@ const Partners = () => {
       <SubSectionTitle>Platinum Partners</SubSectionTitle>
       <div className="flex justify-around mt-4 gap-y-4 flex-wrap text-center items-stretch">
         <PartnerCard src="./partners/Devfolio.png" alt="Devfolio" />
-        <PartnerCard src="./partners/Polygon.svg" alt="Polygon" />
-        <PartnerCard src="./partners/ETHIndia.png" alt="ETHIndia" />
+        {/* <PartnerCard src="./partners/Polygon.svg" alt="Polygon" />
+        <PartnerCard src="./partners/ETHIndia.png" alt="ETHIndia" /> */}
       </div>
-      <SubSectionTitle>Vouchers Partners</SubSectionTitle>
+      {/* <SubSectionTitle>Vouchers Partners</SubSectionTitle>
       <div className="flex justify-center gap-x-10 gap-y-4 mt-4 flex-wrap text-center items-stretch">
         <PartnerCard src="./partners/InterviewBuddy.png" alt="InterviewBuddy" />
         <PartnerCard src="./partners/SYBGEN.png" alt="SYBGEN" />
-      </div>
+      </div> */}
     </div>
   );
 };

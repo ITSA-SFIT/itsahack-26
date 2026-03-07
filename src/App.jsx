@@ -15,7 +15,7 @@ import Prizes from "./Prizes/Prizes";
 import Timeline from "./Timeline/Timeline";
 import Footer from "./Footer/Footer";
 import FAQ from "./FAQ/FAQ";
-// import Partners from "./Partners/Partners";
+import Partners from "./Partners/Partners";
 import VIP from "./VIP/VIP";
 // import ProblemStatement from "./ProblemStatement/ProblemStatement";
 import Track from "./Track/Track";
@@ -36,7 +36,7 @@ const MainPage = ({ isLoaded }) => {
       <VIP />
       {/* <Judges />
     <Mentors /> */}
-      {/* <Partners /> */}
+       <Partners /> 
       <FAQ />
       <Footer />
     </>
