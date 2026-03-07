@@ -16,7 +16,7 @@ const Devfolio1 = () => {
     <div className="flex justify-center">
       <div
         className="apply-button"
-        data-hackathon-slug="Itsahack"
+        data-hackathon-slug="itsahack"
         data-button-theme="dark-inverted"
         style={{ height: "44px", width: "312px" }}
       ></div>
