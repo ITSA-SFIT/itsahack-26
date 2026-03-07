@@ -19,7 +19,7 @@ const Partners = () => {
       <SectionTitle>Our Partners</SectionTitle>
       <SubSectionTitle>Platinum Partners</SubSectionTitle>
       <div className="flex justify-around mt-4 gap-y-4 flex-wrap text-center items-stretch">
-        <PartnerCard src="./partners/Devfolio.png" alt="Devfolio" />
+        <PartnerCard src="./partners/Devfolio.png" alt="Devfolio logo" />
         {/* <PartnerCard src="./partners/Polygon.svg" alt="Polygon" />
         <PartnerCard src="./partners/ETHIndia.png" alt="ETHIndia" /> */}
       </div>
