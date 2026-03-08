@@ -87,7 +87,7 @@ const VIP = () => {
           name="Vinita More"
           imageSrc="./judges/vinita.jpeg"
           linkedinUrl="www.linkedin.com/in/vinita-more-6b439a262"
-          githubUrl=" https://github.com/vimore03"
+          githubUrl=" https://www.linkedin.com/in/vinita-more-6b439a262/"
         />
         <Card
           name="Priya Jain"
@@ -101,6 +101,13 @@ const VIP = () => {
           imageSrc="./mentors/vignesh-mestry.jpg"
           linkedinUrl="https://www.linkedin.com/in/vighnesh-mestry/"
           githubUrl="https://github.com/VighneshMestry"
+        />
+         <Card
+        
+          name="Bibin John"
+          imageSrc="./judges/bibin.jpeg"
+          linkedinUrl="https://www.linkedin.com/in/bibin-john-21qeq3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          githubUrl="https://github.com/BibinRJohn"
         />
       </div>
       <SubSectionTitle>Mentors</SubSectionTitle>
@@ -174,6 +181,13 @@ const VIP = () => {
           imageSrc=".\mentors\riyaindap.jpeg"
           linkedinUrl="https://www.linkedin.com/in/riyaindap7/"
           githubUrl="https://github.com/riyaindap7"
+        />
+         <Card
+        mentor
+          name="Craig Dsouza"
+          imageSrc=".\mentors\craig.jpeg"
+          linkedinUrl="https://www.linkedin.com/in/craig-ml-dsouza"
+          githubUrl="https://github.com/CraigMLdsouza"
         />
       </div>
     </div>
