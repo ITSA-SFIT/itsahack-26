@@ -86,8 +86,8 @@ const VIP = () => {
         <Card
           name="Vinita More"
           imageSrc="./judges/vinita.jpeg"
-          linkedinUrl="www.linkedin.com/in/vinita-more-6b439a262"
-          githubUrl=" https://www.linkedin.com/in/vinita-more-6b439a262/"
+          linkedinUrl="https://www.linkedin.com/in/vinita-more-6b439a262/"
+          githubUrl="https://github.com/vimore03"
         />
         <Card
           name="Priya Jain"
