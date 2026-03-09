@@ -166,7 +166,7 @@ const VIP = () => {
           name="Anish Kalbhor"
           imageSrc=".\mentors\anishkalbhor.jpeg"
           linkedinUrl="https://linkedin.com/in/anishvkalbhor"
-          githubUrl="https://github.com/anishvkalbho"
+          githubUrl="https://github.com/anishvkalbhor"
         />
          <Card
         mentor
@@ -178,7 +178,7 @@ const VIP = () => {
         <Card
         mentor
           name="Riya Indap"
-          imageSrc=".\mentors\riyaindap.jpeg"
+          imageSrc=".\mentors\riyai.jpeg"
           linkedinUrl="https://www.linkedin.com/in/riyaindap7/"
           githubUrl="https://github.com/riyaindap7"
         />
@@ -188,6 +188,20 @@ const VIP = () => {
           imageSrc=".\mentors\craig.jpeg"
           linkedinUrl="https://www.linkedin.com/in/craig-ml-dsouza"
           githubUrl="https://github.com/CraigMLdsouza"
+        />
+        <Card
+        mentor
+          name="Prathamesh Desai"
+          imageSrc=".\mentors\prathamesh.jpeg"
+          linkedinUrl="https://www.linkedin.com/in/prathamesh-desai-845aa4269"
+          githubUrl="https://github.com/PrathameshDesai0409"
+        />
+        <Card
+        mentor
+          name="Aries Dmello"
+          imageSrc=".\mentors\arish.jpeg"
+          linkedinUrl="https://www.linkedin.com/in/aries-dmello7104"
+          githubUrl="https://github.com/dmelloaries"
         />
       </div>
     </div>
