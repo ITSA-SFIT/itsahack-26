@@ -74,8 +74,8 @@ const Track = () => {
 
       {/* Row 2 - 2 cards centered */}
       <div className="flex mt-8 justify-center gap-5 gap-y-8 flex-wrap items-baseline">
-        <TrackCard title="Logistics" img={"./tracks/logistics.png"} />
-        <TrackCard title="E-commerce" img={"./tracks/ecommerce.png"} />
+        <TrackCard title="Automation" img={"./tracks/auto.png"} />
+        <TrackCard title="Smart Governance" img={"./tracks/smartgov.png"} />
       </div>
     </div>
   );

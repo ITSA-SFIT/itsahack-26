@@ -18,7 +18,7 @@
 
 // export default Content;
 import React from "react";
-import title from "./../title.svg";
+import title from "./../ITSAHACK2.0.svg";
 
 const Content = () => {
   return (
