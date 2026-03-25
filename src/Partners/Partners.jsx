@@ -23,6 +23,11 @@ const Partners = () => {
         {/* <PartnerCard src="./partners/Polygon.svg" alt="Polygon" />
         <PartnerCard src="./partners/ETHIndia.png" alt="ETHIndia" /> */}
       </div>
+       <SubSectionTitle>Silver Partners</SubSectionTitle>
+      <div className="flex justify-center gap-x-10 gap-y-4 mt-4 flex-wrap text-center items-stretch">
+        <PartnerCard src="./partners/Modelbank.png" alt="Model Bank" />
+        {/* <PartnerCard src="./partners/SYBGEN.png" alt="SYBGEN" /> */}
+      </div>
       {/* <SubSectionTitle>Vouchers Partners</SubSectionTitle>
       <div className="flex justify-center gap-x-10 gap-y-4 mt-4 flex-wrap text-center items-stretch">
         <PartnerCard src="./partners/InterviewBuddy.png" alt="InterviewBuddy" />
