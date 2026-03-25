@@ -6,7 +6,7 @@ const schedule = [
     description: "The registration for the ITS-A-Hack is open",
   },
   {
-    date: "25th March 2026",
+    date: "28th March 2026",
     time: "11:59 PM",
     event: "Registration Ends",
     description: "The Registration Period for ITS-A-Hack will end.",
