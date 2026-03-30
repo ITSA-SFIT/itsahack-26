@@ -27,7 +27,7 @@ const schedule = [
   // },
   {
     date: "03rd April 2026",
-    time: "08:00 PM",
+    time: "07:00 PM",
     event: "Introductory Session on Discord",
     description:
       "There will be a introductory session on Discord. Join our Discord server for the same. Link will be mailed to accepted team.",
@@ -47,7 +47,7 @@ const schedule = [
   },
   {
     date: "04th April 2026",
-    time: "09:00 PM",
+    time: "08:00 PM",
     event: "Initial Evaluation",
     description:
       "Evaluation Round 1 will take place. Participants will be judged on the progress made so far.",
