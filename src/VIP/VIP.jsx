@@ -109,6 +109,14 @@ const VIP = () => {
           linkedinUrl="https://www.linkedin.com/in/bibin-john-21qeq3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           githubUrl="https://github.com/BibinRJohn"
         />
+        <Card
+        
+          name="Aniket Patil"
+          imageSrc="./judges/aniket.jpeg"
+          linkedinUrl="https://www.linkedin.com/in/aniketpadmakar?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          githubUrl="https://github.com/aniketpadmakar"
+        />
+        
       </div>
       <SubSectionTitle>Mentors</SubSectionTitle>
       <div className="flex justify-center mt-4 gap-4 flex-wrap text-center items-stretch">
