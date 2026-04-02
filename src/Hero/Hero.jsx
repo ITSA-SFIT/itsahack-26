@@ -4,7 +4,7 @@ import Content from "./Content";
 import Background from "./Background";
 import Timer from "./Timer";
 import Devfolio1 from "./devfolio1";
-// import Marquee from "./marquee";
+import Marquee from "./marquee";
 const Hero = ({ isLoaded }) => {
   const [mousePos, setMousePos] = useState({ x: null, y: null });
 
@@ -20,7 +20,7 @@ const Hero = ({ isLoaded }) => {
           <div className="grow flex flex-col justify-around gap-y-4 pb-10">
             <Content />
             <Timer />
-            {/* <Marquee/> */}
+            <Marquee/>
             <Devfolio1/>
           </div>
         </>

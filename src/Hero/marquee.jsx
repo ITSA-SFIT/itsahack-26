@@ -2,9 +2,9 @@ const Marquee = () => {
   const Message = () => (
     <span className="whitespace-nowrap text-xl px-20">
       <span className="text-White-300 font-bold">Note: </span>
-      <span className="text-red-300">Please submit your application only after </span>
-      <strong className="text-red-200/90">all team members</strong>
-      <span className="text-red-200/90"> have joined the team.</span>
+      <strong className="text-red-300">Problem Statements are live now!!. </strong>
+      <strong className="text-red-300">Selected Teams will receive mail shortly </strong>
+      <strong className="text-red-300">about further details. </strong>
     </span>
   );
 
