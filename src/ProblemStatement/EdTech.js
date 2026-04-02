@@ -2,48 +2,60 @@ const ETproblemStatements = [
   {
     statementId: "ET1",
     problemStatement:
-      "With the growing demand for accessible education, there's a need for a comprehensive platform that supports both instructors and students. Your challenge is to create an Online Learning Platform that enables instructors to upload courses, track student progress, and engage learners through interactive Example Features.",
+      "In today’s education system, students develop skills through hackathons, internships, projects, and self-learning but there is no unified platform that accurately reflects their true capabilities. Recruiters and colleges still rely heavily on marks, overlooking practical skills and real-world experience. Imagine a system that evaluates and showcases a student’s overall credibility combining academics with real achievements into one trusted score.",
     exampleFeatures: [
-      "Course Upload: Instructors can easily upload and manage their courses, including videos, readings, and assignments.",
-      "Progress Tracking: The platform should allow instructors to monitor student progress and engagement throughout the course.",
-      "Quizzes and Certificates: Instructors can create quizzes to assess student understanding and issue certificates upon course completion.",
-      "Discussion Boards: Students can participate in discussion boards to engage with peers and instructors.",
-      "Messaging System: A messaging feature should facilitate communication between students and instructors for questions and support.",
+      "Unified Student Profile: Combines academics, projects, hackathons, internships, and certifications in one place.",
+      "Dynamic Credibility Score: Generates a score with detailed category-wise breakdown (skills, experience, academics).",
+      "Public Shareable Profile: Provides a portfolio-like link that students can share with recruiters or colleges.",
+      "Verification System: Allows users to upload proofs such as certificates, GitHub links, and project demos for authenticity.",
+      "Project Evaluation: Analyzes GitHub repositories and activity to assess project quality and impact."
     ],
+    extracontent:
+      "Focus on proof-based student identity, not just marks-based evaluation."
   },
   {
     statementId: "ET2",
     problemStatement:
-      "As students face increasing academic demands, having efficient study aids is essential for effective learning. Your challenge is to build an AI Study Material Generator that creates personalized study materials, such as summaries and practice quizzes, from textbooks or lecture notes uploaded by students.",
+      "Students often face clashing deadlines such as assignments, exams, and hackathons leading to stress and missed work. There is no intelligent system to manage and resolve these conflicts. Imagine a smart tool that organizes deadlines, detects overlaps, and creates an optimized plan to keep students on track.",
     exampleFeatures: [
-      "Material Generation: The AI should generate concise summaries and relevant practice quizzes based on the content of uploaded textbooks or notes.",
-      "Personalized Suggestions: The system should analyze user preferences and study habits to provide tailored study materials that enhance learning.",
-      "User Uploads: Students can easily upload their own materials for the AI to process and generate study aids.",
-      "Progress Tracking: The platform should allow students to track their study progress and performance on quizzes.",
+      "Deadline Input System: Add all upcoming deadlines including assignments, exams, and events.",
+      "Visual Conflict Calendar: Clearly displays overlapping deadlines.",
+      "Priority-Based Scheduling: Assign importance levels to tasks for better planning.",
+      "Smart Reminders: Get timely alerts to avoid missing deadlines.",
+      "Optimal Task Sequencing: Suggests the best order to complete tasks."
     ],
+    extracontent:
+      "Focus on resolving deadline conflicts intelligently, not just tracking tasks."
   },
   {
     statementId: "ET3",
     problemStatement:
-      "In the modern educational landscape, collaboration among students is essential for successful project work. Your challenge is to develop a Collaborative Student Project Platform that enables students to work together effectively, incorporating AI features to enhance the collaborative experience.",
+      "In today’s competitive job market, students often apply for internships and jobs without knowing if they are truly prepared, leading to repeated rejections and frustration. There is no system that objectively evaluates real interview readiness. Imagine a smart tool that assesses your skills, analyzes your work, and tells you honestly whether you’re ready along with what to improve.",
     exampleFeatures: [
-      "Document Sharing: Students can upload and share documents, presentations, and other project materials easily.",
-      "Real-Time Collaboration: Enable simultaneous editing of documents and project files, allowing multiple users to contribute in real time.",
-      "Peer Feedback Mechanisms: Implement tools for students to provide and receive feedback on each other’s work.",
-      "AI Assistance: Integrate AI features that suggest resources, analyze contributions, and offer smart summaries of discussions.",
+      "Role Selection: Choose a target role (e.g., frontend developer, data analyst).",
+      "Skill Checklist: View required skills and competencies for the selected role.",
+      "Self-Assessment + Proof Upload: Rate your skills and upload projects, resumes, or GitHub links as proof.",
+      "Readiness Score: Get a clear score indicating how prepared you are for the role.",
+      "Improvement Suggestions: Provides actionable recommendations to improve weak areas."
     ],
+    extracontent:
+      "Focus on honest interview readiness, not just application preparation."
   },
   {
     statementId: "ET4",
     problemStatement:
-      "Managing homework submissions and grading can be challenging for both students and teachers. Your task is to build a web or mobile app that streamlines this process, allowing students to submit assignments and teachers to review and grade them efficiently.",
+      "In today’s academic environment, students often struggle to revise large volumes of study material efficiently, leading to poor retention and last-minute stress. Imagine a platform that uses AI to convert lengthy content into concise, easy-to-understand revision notes making studying faster and smarter.",
     exampleFeatures: [
-      "Assignment Submission: Students can upload and submit homework assignments with file attachments (e.g., PDFs, Word docs, images).",
-      "Teacher Review & Grading: Teachers can review submissions, assign grades, and provide feedback directly within the platform.",
-      "Comments and Feedback: Both teachers and students can exchange comments to clarify assignments or discuss improvements.",
-      "Grade Tracking: The app should maintain a gradebook where students can view their grades and teachers can track the performance of individual students or entire classes.",
-      "Notifications: Automatic notifications should alert students about upcoming deadlines, submission confirmations, and feedback from teachers.",
+      "AI Text Summarization: Converts long chapters into short, meaningful summaries.",
+      "Keyword Extraction: Highlights important concepts and terms for quick recall.",
+      "Quick Revision Notes Generation: Creates simplified notes ideal for last-minute revision.",
+      "Downloadable Reports: Allows users to download summaries for offline use.",
+      "Subject Categorization: Organizes content based on subjects and topics.",
+      "Admin Content Management Panel: Enables management and uploading of study materials."
     ],
-  },
+    extracontent:
+      "Focus on faster and smarter revision, not just content consumption."
+  }
 ];
+
 export default ETproblemStatements;

@@ -2,50 +2,61 @@ const FTproblemStatements = [
   {
     statementId: "FT1",
     problemStatement:
-      "Managing personal finances can be overwhelming without proper tools. Your challenge is to build a Personal Finance Tracker that helps users gain insight into where their money goes each month by allowing them to input and categorize income and expenses.",
+      "In today’s digital world, managing daily expenses can be tedious, as users must manually log each transaction. This makes tracking inconsistent and time-consuming. Imagine a system where users simply send a message like 'Paid ₹50 for food via UPI,' and it’s instantly recorded, categorized, and updated in a real-time dashboard making expense tracking effortless.",
     exampleFeatures: [
-      "Manual Income/Expense Input: Users can manually input their income and expenses for tracking purposes.",
-      "Categorization: Transactions can be categorized into predefined or custom categories to help users organize their spending.",
-      "Budget Visualization: Provide basic visualizations showing users how much they’ve spent, saved, and in which categories.",
-      "Expense Forecasting: Suggest potential future expenses based on previous spending patterns to help users plan ahead.",
-      "Exportable Reports: Users can export detailed spending reports in PDF or CSV formats for further analysis.",
+      "Chat Input Interface: Users can log expenses by sending natural language messages through WhatsApp or Telegram bots.",
+      "Automatic Expense Logging: The system parses messages and records transactions instantly without manual entry.",
+      "Smart Categorization: Automatically classifies expenses like food, travel, bills, shopping, etc.",
+      "Real-Time Dashboard: A web dashboard provides insights into daily, weekly, and monthly spending patterns.",
+      "Search & History: Users can retrieve past transactions via chat commands or view detailed history on the dashboard."
     ],
+    extracontent:
+      "Focus on effortless expense tracking through chat, not traditional apps."
   },
   {
     statementId: "FT2",
     problemStatement:
-      "Understanding how financial habits impact credit scores can empower users to make better financial decisions. Your challenge is to develop a Credit Score Prediction and Improvement Tool that helps users see how their financial data affects their credit score and offers simple ways to improve it.",
+      "In today’s financial landscape, many individuals struggle to assess loan affordability and eligibility. This leads to poor borrowing decisions and financial stress. Imagine a smart assistant that analyzes your financial profile and provides personalized guidance helping you make safe and informed borrowing decisions.",
     exampleFeatures: [
-      "Financial Input: A form where users can input relevant financial data, such as income, debts, and current credit utilization.",
-      "Credit Score Prediction: A model that predicts a user’s credit score based on their financial data.",
-      "Improvement Suggestions: Provide personalized, actionable suggestions to help users improve their credit score and creditworthiness.",
-      "Credit Utilization Tracker: Track the user’s credit utilization ratio over time and show its impact on their credit score.",
-      "Credit Score Simulation: Allow users to simulate how changes in financial habits, like paying off debt or increasing income, will affect their credit score.",
+      "Financial Input System: Users can enter salary, monthly expenses, existing obligations, and financial goals.",
+      "EMI Affordability Calculator: Calculates how much EMI the user can comfortably pay without financial strain.",
+      "Loan Eligibility Estimation: Provides an estimate of loan amount users are eligible for based on their profile.",
+      "Monthly Budget Breakdown: Shows how loan repayment fits into overall monthly expenses.",
+      "Risk Indicator: Highlights chances of over-borrowing and financial stress.",
+      "Safe EMI Suggestions: Recommends EMI ranges that minimize risk."
     ],
+    extracontent:
+      "Focus on smart financial decision-making, not just basic loan calculation."
   },
   {
     statementId: "FT3",
     problemStatement:
-      "Splitting bills among friends can often be complicated and lead to confusion. Your challenge is to build a bill-splitting app that simplifies the process of sharing expenses and ensures everyone knows what they owe.",
+      "In today’s digital world, managing group expenses among friends, roommates, or travel groups often becomes confusing and inefficient. People struggle to keep track of who paid, who owes whom, and how to settle balances fairly. Existing solutions simply split bills but fail to reduce complexity in settlements. Imagine a system that intelligently analyzes expenses, minimizes transactions, and provides a clear, optimized settlement plan in the simplest way possible.",
     exampleFeatures: [
-      "Expense Input: Allow users to quickly add expenses and assign them to individuals involved in the transaction.",
-      "Bill Calculation: Automatically calculate the amount each person owes based on the entered expenses, whether split evenly or by percentage.",
-      "AI Expense Suggestions: Use an AI algorithm to suggest how to split expenses based on common patterns, such as evenly dividing costs or splitting proportionally based on participation.",
-      "Payment Reminders: Implement reminders to notify users when payments are due or if someone hasn’t settled their share, making it easy to track outstanding balances.",
+      "Group Expense Entry: Users can add shared expenses manually or through chat-based input.",
+      "Auto Split Engine: Automatically divides expenses among participants.",
+      "Settlement Optimizer: Minimizes the number of transactions by optimizing payment flow.",
+      "Fairness Adjustments: Supports unequal splits for realistic scenarios.",
+      "Visual Debt Graph: Clearly shows who owes whom.",
+      "One-Click Settlement Plan: Generates an optimized step-by-step settlement."
     ],
+    extracontent:
+      "Focus on reducing complexity in group finance through intelligent settlement optimization, not just basic expense splitting."
   },
   {
     statementId: "FT4",
     problemStatement:
-      "Managing personal finances requires more than just tracking expenses—users need effective budgeting tools to help them plan and optimize their spending. Your challenge is to develop a Budget Planning Tool that enables users to create and manage monthly budgets while providing insights into their financial habits.",
+      "In today’s digital world, scams like fake calls and phishing are increasingly common, and many fall victim due to lack of awareness. Existing methods are passive and don’t prepare users for real situations. Imagine an interactive platform that simulates real scam scenarios helping users identify threats and respond safely.",
     exampleFeatures: [
-      "Budget Setup: Users can create monthly budgets for various spending categories like groceries, entertainment, and transportation.",
-      "Spending Tracking: Track spending in real-time and compare it against set budget categories.",
-      "Feedback: Provide feedback to users, alerting them if they are over or under their budget in specific categories.",
-      "AI-Spending Insights: Use AI to analyze user spending patterns and offer personalized insights.",
-      "Recurring Expenses Management: Track and manage recurring expenses, such as bills or subscriptions.",
-      "Visual Reports: Provide visual reports like pie charts and line graphs, helping users easily understand their spending habits and make adjustments accordingly.",
+      "Simulated Scam Scenarios: Users receive realistic fake calls, SMS, or chat messages mimicking common scams.",
+      "Interactive Decision-Making: Users choose how to respond in each scenario, making it a hands-on learning experience.",
+      "Real-Time Red Flag Detection: Highlights suspicious elements such as unknown links, urgency, or threats during simulation.",
+      "Awareness Tips & Guides: Provides educational content on how to identify and avoid scams.",
+      "Performance Score & Feedback: Gives users a score and detailed feedback after each simulation."
     ],
-  },
+    extracontent:
+      "Focus on experiential learning through simulation, not just passive awareness."
+  }
 ];
+
 export default FTproblemStatements;
