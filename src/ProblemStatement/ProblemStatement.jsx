@@ -275,7 +275,7 @@ const ProblemStatement = () => {
             You can also Download Problem Statement from here:
           </p>
           <a
-            href="ProblemStatements.pdf"
+            href="Problem Statements.pdf"
             download
             className="inline-block px-6 py-2 bg-white text-red-950 font-bold rounded-lg shadow hover:bg-gray-200 transition duration-300"
           >

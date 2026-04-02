@@ -148,7 +148,7 @@ import Footer from "./Footer/Footer";
 import FAQ from "./FAQ/FAQ";
 import Partners from "./Partners/Partners";
 import VIP from "./VIP/VIP";
-// import ProblemStatement from "./ProblemStatement/ProblemStatement";
+import ProblemStatement from "./ProblemStatement/ProblemStatement";
 import Track from "./Track/Track";
 // import DigitalBadge from "./DigitalBadge/DigitalBadge";
 
@@ -306,7 +306,7 @@ const MainPage = ({ isLoaded }) => {
       <Timeline />
       <Domain />
       <Track />
-      {/* <ProblemStatement/> */}
+      <ProblemStatement/>
       <Prizes />
       <VIP />
       <Partners />
