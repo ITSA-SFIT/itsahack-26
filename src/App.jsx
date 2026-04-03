@@ -150,7 +150,7 @@ import Partners from "./Partners/Partners";
 import VIP from "./VIP/VIP";
 import ProblemStatement from "./ProblemStatement/ProblemStatement";
 import Track from "./Track/Track";
-import DigitalBadge from "./DigitalBadge/DigitalBadge";
+// import DigitalBadge from "./DigitalBadge/DigitalBadge";
 
 
 /* ================= POPUP ================= */
@@ -302,7 +302,7 @@ const MainPage = ({ isLoaded }) => {
   const [team, setTeam] = useState(0);
   return (   <>
       <Hero isLoaded={isLoaded} />
-       <DigitalBadge team={team} setTeam={setTeam} />
+       {/* <DigitalBadge team={team} setTeam={setTeam} /> */}
       <About />
       <Timeline />
       <Domain />
