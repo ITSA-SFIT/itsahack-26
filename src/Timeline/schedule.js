@@ -34,13 +34,13 @@ const schedule = [
   },
   {
     date: "03rd April 2026",
-    time: "08:30 PM",
+    time: "08:00 PM",
     event: "ITS-A-Hack Begins!",
     description: "The Hackathon officially commences. Lasting 48 hours",
   },
   {
     date: "04th April 2026",
-    time: "12:00 PM",
+    time: "12:01 AM",
     event: "Compulsory Mentoring Round",
     description:
       "Mandatory mentoring round where participants will receive guidance and feedback from mentors.",
