@@ -299,7 +299,7 @@ const styles = {
 
 /* ================= MAIN PAGE ================= */
 const MainPage = ({ isLoaded }) => {
-  const [team, setTeam] = useState(0);
+  // const [team, setTeam] = useState(0);
   return (   <>
       <Hero isLoaded={isLoaded} />
        {/* <DigitalBadge team={team} setTeam={setTeam} /> */}
