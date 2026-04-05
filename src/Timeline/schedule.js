@@ -57,7 +57,7 @@ const schedule = [
     time: "10:30 AM",
     event: "Mid Evaluation Round",
     description:
-      "Top 10 Teams will be selected to proceed to the Final Evaluation Round",
+      "Top 4 Teams will be selected to proceed to the Final Evaluation Round",
   },
   {
     date: "05th April 2026",
@@ -70,7 +70,7 @@ const schedule = [
     date: "06th April 2026",
     time: null,
     event: "Announcing Winners",
-    description: "The Winners will be announced on the Discord Server.",
+    description: "The Winners will be announced on the Website and Discord Server.",
   },
 ];
 export default schedule;
