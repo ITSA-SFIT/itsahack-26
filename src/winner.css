@@ -1,0 +1,142 @@
+.winners-section {
+  padding: 120px 8%;
+  color: white;
+  position: relative;
+  overflow: hidden;
+
+  background: radial-gradient(
+      circle at center,
+      rgba(234, 33, 33, 0.08) 0%,
+      rgba(0, 0, 0, 0) 45%
+    ),
+    linear-gradient(
+      180deg,
+      #000000 0%,
+      #080808 30%,
+      #120000 65%,
+      #000000 100%
+    );
+}
+
+
+.podium {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.podium-card {
+  width: 300px;
+  padding: 30px 20px;
+
+  background: rgba(15, 15, 15, 0.95);
+
+  border: 1px solid rgba(234, 33, 33, 0.25);
+  border-radius: 28px 28px 0 0;
+
+  backdrop-filter: blur(10px);
+
+  transition: all 0.3s ease;
+}
+
+.podium-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(234, 33, 33, 0.7);
+  box-shadow: 0 0 25px rgba(234, 33, 33, 0.2);
+}
+
+.first {
+  height: 420px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(234, 33, 33, 0.18),
+    rgba(15, 15, 15, 0.98)
+  );
+
+  box-shadow: 0 0 30px rgba(234, 33, 33, 0.25);
+}
+
+.second {
+  height: 340px;
+}
+
+.third {
+  height: 310px;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 25px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+}
+
+.gold {
+  background: linear-gradient(135deg, #ffd700, #ffb800);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+}
+
+.silver {
+  background: linear-gradient(135deg, #d9d9d9, #9e9e9e);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.bronze {
+  background: linear-gradient(135deg, #cd7f32, #8f4f14);
+  box-shadow: 0 0 20px rgba(205, 127, 50, 0.3);
+}
+
+.podium-card h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.podium-card h4 {
+  color: #ea2121;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.podium-card p {
+  color: #bdbdbd;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .winner-heading {
+    text-align: center;
+  }
+
+  .winner-heading h2::after {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .podium {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first,
+  .second,
+  .third {
+    height: auto;
+    min-height: 300px;
+  }
+
+  .podium-card {
+    width: 100%;
+    max-width: 350px;
+  }
+}
