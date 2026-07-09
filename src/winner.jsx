@@ -34,7 +34,7 @@ const Winners = () => {
           </div>
           <h3>1st Place</h3>
           <h4>Vision X Coders</h4>
-          <p>AI Fraud Detection System</p>
+          <p>PayMatrix "Fewer Transaction.Zero Confusion"</p>
         </div>
 
         {/* 3rd Place */}
