@@ -44,7 +44,7 @@ const Winners = () => {
           </div>
           <h3>3rd Place</h3>
           <h4>CodeAstra</h4>
-          <p>EcoTrack Platform</p>
+          <p>NagarFlow-Smart Governance Platform</p>
         </div>
       </div>
     </section>
