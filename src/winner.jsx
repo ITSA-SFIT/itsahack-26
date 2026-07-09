@@ -24,7 +24,7 @@ const Winners = () => {
           </div>
           <h3>2nd Place</h3>
           <h4>Sankalpsquad</h4>
-          <p>Smart Healthcare Assistant</p>
+          <p>CivicResource.ai-Intelligent Complaint Managment</p>
         </div>
 
         {/* 1st Place */}
