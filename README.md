@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# ITS-A-Hack 2.0 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official website repository for **ITS-A-Hack 2.0**, a 48-hour online hackathon organized by the **Information Technology Student Association (ITSA)**.
 
-## Available Scripts
+The platform serves as the central hub for participants, mentors, judges, and organizers, providing information about the event, registration details, schedules, problem statements, rules, prizes, and announcements.
 
-In the project directory, you can run:
-install pacakages 
-### `npm start`
+## 🌟 About the Event
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ITS-A-Hack 2.0 is a national-level 48-hour online hackathon that brings together innovative minds to solve real-world challenges through technology, collaboration, and creativity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Participants work in teams to develop impactful solutions while gaining valuable experience, networking opportunities, and industry exposure.
 
-### `npm test`
+## ✨ Website Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Event Overview
+- Registration Portal
+- Hackathon Timeline
+- Problem Statements
+- Rules & Guidelines
+- Prize Details
+- FAQs
+- Contact Information
+- Responsive Design
+- Modern User Interface
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js / Next.js
+- Tailwind CSS
+- JavaScript
+- Netlify Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Live Website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://itsahack.netlify.app/
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+src/
+├── components/
+├── pages/
+├── assets/
+├── styles/
+└── utils/
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🎯 Purpose
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The website was developed to provide a seamless digital experience for participants and serve as the official information portal for ITS-A-Hack 2.0.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🏆 Organized By
 
-## Learn More
+**Information Technology Student Association (ITSA)**  
+St. Francis Institute of Technology
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📄 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is maintained for ITS-A-Hack 2.0 event purposes.
