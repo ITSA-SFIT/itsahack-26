@@ -27,7 +27,7 @@ Participants work in teams to develop impactful solutions while gaining valuable
 - React.js / Next.js
 - Tailwind CSS
 - JavaScript
-- Netlify Deployment
+
 
 ## 🚀 Live Website
 
