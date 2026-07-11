@@ -20,8 +20,7 @@ Participants work in teams to develop impactful solutions while gaining valuable
 - Prize Details
 - FAQs
 - Contact Information
-- Responsive Design
-- Modern User Interface
+  
 
 ## 🛠️ Tech Stack
 
